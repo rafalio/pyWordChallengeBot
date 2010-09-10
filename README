@@ -1,0 +1,25 @@
+Name: 		pyWordChallengeBot
+Version:	0.1
+Platform: 	Mac OS X
+
+
+This script will allow you to cheat in the game WordChallenge on Facebook (http://apps.facebook.com/wordchallenge).
+
+It requires Python, and currently runs only on Mac OS X. If you would like to make it work on other platforms, then please fork on github and contribute.
+
+
+To use:
+	
+	In the terminal, type 'python pyWordChallengeBot'
+	Then, to solve a normal jumble, type '1' followed by the jumble, ie "--> 1 telret"
+	Now you need to quickly switch to Firefox (or w/e browser you are using), and make sure the flash applet is active. It 	won't work otherwise
+	To quit, type "quit", ie "->> quit"
+	For FB friend solving functionality, look below
+
+
+The bot is also able to solve friend's names (the bonus levels in the game).
+For this to work, you will need your own API KEY and SECRET, as I don't want to give you my own, as it's not safe.
+Some instructions on how to do this are here (http://www.shoutmeloud.com/how-to-acquire-your-facebook-api-key.html).
+When you have your API_KEY and SECRET, simply change them in the top of the script file.
+Also, you will need to uncomment two lines in the main function, or it won't work.
+You will also need pyFacebook from here (http://github.com/sciyoshi/pyfacebook)
