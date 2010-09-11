@@ -6,22 +6,8 @@ import time
 # If you want to use the Facebook friend functionality, you have to provide your own API KEY and SECRET
 # You also need the python Facebook library
 
-
 API     = ''
 SECRET  = ''
-
-
-
-# Returns a set of friend's name that can be made from 'jumble'
-def friendSolve(facebook,jumble):
-
-    gen = substrings(jumble)
-    res = set()
-    for g in gen:
-        res.add(g)    
-    return (first_names & res)
-    
-
 
 # Returns the friend list
 def getFriends(facebook): 
